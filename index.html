@@ -15,27 +15,27 @@
   <nav class="blue" role="navigation">
     <div class="nav-wrapper container ">
      
-	  <a id="logo-container" href="#" class="brand-logo"><span class="cursive">ie</span>HACKS</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">About</a></li>
-	<li><a href="#">Location</a></li>
-	<li><a href="#">Sponsors</a></li>
-	<li><a href="#">FAQ</a></li>
-	<li><a href="#">Register</a></li>
+	  <a id="logo-container" href="#index-banner" class="brand-logo"><span class="cursive">ie</span>HACKS</a>
+      <ul class="right hide-on-med-and-down table-of-contents">
+        <li><a href="#about">About</a></li>
+	<li><a href="#location">Location</a></li>
+	<li><a href="#sponsors">Sponsors</a></li>
+	<li><a href="#faq">FAQ</a></li>
+	<li><a href="#register">Register</a></li>
       </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">About</a></li>
-	<li><a href="#">Location</a></li>
-	<li><a href="#">Sponsors</a></li>
-	<li><a href="#">FAQ</a></li>
-	<li><a href="#">Register</a></li>
+      <ul id="nav-mobile" class="side-nav table-of-contents">
+        <li><a href="#about">About</a></li>
+	<li><a href="#location">Location</a></li>
+	<li><a href="#sponsors">Sponsors</a></li>
+	<li><a href="#faq">FAQ</a></li>
+	<li><a href="#register">Register</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
     </div>
   </nav>
 
-  <div id="index-banner" class="parallax-container valign-wrapper">
+  <div id="index-banner" class="parallax-container valign-wrapper scrollspy">
     <canvas id="canvas"></canvas>
     <div class="section no-pad-bot valign">
       <div class="container">
@@ -65,13 +65,14 @@
 	  </svg>
 	</div>
         <h1 class="header logo-text center blue-text"><span class="cursive">ie</span>HACKS</h1>
+	<h4 class="header center col s12 blue-text">June 2015</h4>
         <div class="row center">
           <h5 class="header col s12 light blue-text">24 hours of collaboration, sharing, and learning.</h5>
 	  <h5 class="header col s12 light blue-text">Join us for a weekend of creating innovative technology.</h5>
         </div>
         <div class="row center">
-	  <a href="#" id="download-button" class="btn-large waves-effect waves-light grey">Learn more</a>
-          <a href="#" id="download-button" class="btn-large waves-effect waves-light blue">Register</a>
+	  <a href="#about" id="download-button" class="btn-large waves-effect waves-light grey">Learn more</a>
+          <a href="#register" id="download-button" class="btn-large waves-effect waves-light blue">Register</a>
         </div>
       </div>
     </div>
@@ -83,7 +84,7 @@
 
 
   <div class="container">
-    <div class="section">
+    <div id="about" class="section scrollspy">
       <div class="row">
 	<h4 class="center">An experience like no other</h4>
       </div>
@@ -115,7 +116,7 @@
 
 
   <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
+    <div id="location" class="section no-pad-bot scrollspy">
       <div class="container">
         <div class="row center">
           <h4 class="header col s12 blue-text">Area 31, María de Molina St, 28006 Madrid, Spain</h4>
@@ -128,7 +129,7 @@
   <!-- <iframe width='100%' height='500px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/tfogo.m58ffgbg/attribution,zoompan,geocoder.html?access_token=pk.eyJ1IjoidGZvZ28iLCJhIjoiQnB4am9CSSJ9.GJfl9aBHlFYkrXTWjQpjDw'></iframe> -->
 
   <div class="container">
-    <div class="section sponsorships">
+    <div id="sponsors" class="section sponsorships scrollspy">
 
       <div class="row">
         <div class="col s12 center">
@@ -155,7 +156,7 @@
       <div class="sponsor-cta">
 	<div class="col s12 center">
           <h5 class="center">Interested in joining our amazing sponsors?</h5>
-	  <a href="#" id="download-button" class="btn-large waves-effect waves-light blue">Find out more</a>
+	  <a target="_blank" href="#" id="download-button" class="btn-large waves-effect waves-light blue">Find out more</a>
 	</div>
       </div>
       
@@ -163,7 +164,7 @@
   </div>
 
   <div class="container">
-    <div class="section faq">
+    <div id="faq" class="section faq scrollspy">
 
       <div class="row">
         <div class="col s12 center">
@@ -190,7 +191,10 @@
               <span class="card-title">What is a hackathon?</span>
             </div>
             <div class="card-content">
-              <p>Hackathons are weekend-long technology festivals. Hundreds of passionate students come together, form teams, share ideas, and help each other build innovative applications. It's a fantastic opportunity to meet new people, learn from mentors, and make cool stuff. They're very beginner friendly. Everybody is there to help each other and have fun. Check <a href=https://medium.com/hackathons-anonymous/wtf-is-a-hackathon-92668579601>this</a> out for more info.</p>
+              <p>Hackathons are weekend-long technology festivals. Hundreds of passionate students come together, form teams, share ideas, and help each other build innovative applications. It's a fantastic opportunity to meet new people, learn from mentors, and make cool stuff. They're very beginner friendly. Everybody is there to help each other and have fun.</p>
+            </div>
+	    <div class="card-action">
+              <a target="_blank" href='https://medium.com/hackathons-anonymous/wtf-is-a-hackathon-92668579601'>Learn more about hackathons here</a>
             </div>
           </div>
 
@@ -200,7 +204,10 @@
               <span class="card-title">What is Major League Hacking?</span>
             </div>
             <div class="card-content">
-              <p>Major League Hacking is the university hackathon league. We help support over 150 student hackathons every year across North America and Europe.</p>
+              <p>Major League Hacking is the university hackathon league. They help support over 150 student hackathons every year across North America and Europe.</p>
+            </div>
+	    <div class="card-action">
+              <a target="_blank" href='https://mlh.io'>Find out more on the MLH Website</a>
             </div>
           </div>
 
@@ -210,7 +217,7 @@
               <span class="card-title">Who can attend?</span>
             </div>
             <div class="card-content">
-              <p>Any enrolled undergraduate or postgraduate student, or graduates who are less than a year out of university. Unfortunately under 18s cannot attend.</p>
+              <p>Any enrolled undergraduate or postgraduate student from any university, or graduates who are less than a year out of university. Unfortunately under 18s cannot attend.</p>
             </div>
           </div>
 
@@ -230,7 +237,7 @@
               <span class="card-title">Can I start before the event?</span>
             </div>
             <div class="card-content">
-              <p>No. It's unfair and immediately disqualifies you from presenting or winning any prizes. You can think of ideas, just don't start building them. You can of course use libraries, frameworks, and templates.</p>
+              <p>No. Doing that immediately disqualifies you from winning any prizes. You can think of ideas, just don't start building them. You can of course use libraries, frameworks, and templates.</p>
             </div>
           </div>
 	  
@@ -244,7 +251,7 @@
               <span class="card-title">I can't code. Can I come?</span>
             </div>
             <div class="card-content">
-              <p>Yes! Of course! <a href="https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000">Hackathons are great for beginners!</a> We'll have mentors on site to teach you lots of new skills and guide you towards creating your first hack. All the students are very friendly and willing to help each other out. Come along and be a part of the tens of thousands of student hackers worldwide.</p>
+              <p>Yes! Of course! <a target="_blank" href="https://medium.com/@tfogo/hackathons-are-for-beginners-77a9c9c0e000">Hackathons are great for beginners!</a> We'll have mentors on site to teach you lots of new skills and guide you towards creating your first hack. All the students are very friendly and willing to help each other out. Come along to join the tens of thousands of student hackers worldwide.</p>
             </div>
           </div>
 
@@ -284,7 +291,7 @@
               <span class="card-title">Is there a code of conduct?</span>
             </div>
             <div class="card-content">
-              <p>We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this <a href="http://mlh.io/code-of-conduct">code of conduct</a>. You should read this code. Organisers will enforce it throughout the event.</p>
+              <p>We are dedicated to providing a fun, harassment-free experience for everyone. We expect all of our attendees, sponsors, volunteers, and staff to be respectful and considerate of others. They are all required to agree with this <a target="_blank" href="http://mlh.io/code-of-conduct">code of conduct</a>. You should read this code. Organisers will enforce it throughout the event.</p>
             </div>
           </div>
 
@@ -294,7 +301,7 @@
               <span class="card-title">Can I volunteer?</span>
             </div>
             <div class="card-content">
-              <p>Yes! If you'd like to help out running the event, please shoot an email to eu@mlh.io</p>
+              <p>Yes! If you'd like to help out running the event, please shoot an email to <a href="mailto:eu@mlh.io">eu@mlh.io</a>.</p>
             </div>
           </div>
 	  
@@ -305,7 +312,7 @@
   </div>
 
   <div class="container">
-    <div class="section">
+    <div id="register" class="section scrollspy">
 
       <div class="row">
         <div class="col s12 center">

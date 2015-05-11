@@ -31,6 +31,7 @@ html, body {
 
 .logo-text {
     margin-top: -30px;
+    margin-bottom: -20px;
 }
 
 .nav-logo {
@@ -133,4 +134,26 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.table-of-contents a {
+    color: #fff;
+    line-height: inherit;
+    height: 100%;
+}
+
+.table-of-contents li {
+    padding: 0px;
+}
+
+.table-of-contents a.active {
+    border-left: none;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.table-of-contents a:hover {
+    border-left: none;
+    color: #fff;
+    padding-left: 20px;
 }
