@@ -157,3 +157,26 @@ footer.page-footer {
     color: #fff;
     padding-left: 20px;
 }
+
+
+#nav-mobile.table-of-contents a {
+    color: #2196f3;
+    line-height: inherit;
+    height: 100%;
+}
+
+#nav-mobile.table-of-contents li {
+    padding: 0px;
+}
+
+#nav-mobile.table-of-contents a.active {
+    border-left: none;
+    color: #2196f3;
+    padding-left: 15px;
+}
+
+#nav-mobile.table-of-contents a:hover {
+    border-left: none;
+    color: #2196f3;
+    padding-left: 15px;
+}
