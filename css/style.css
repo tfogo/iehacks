@@ -123,6 +123,11 @@ p {
   .sponsorships img {
       margin-top: 30px;
   }
+  .main-logo {
+      width: 200px;
+      height: 200px;
+      margin-top: 40px;
+  }
 }
 
 
